@@ -1,0 +1,107 @@
+/* ========== Container css:start ========== */
+
+@media (min-width:375px) {
+	.container {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+@media (min-width:576px) {
+	.container {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		width: 1230px;
+		max-width: 1230px;
+	}
+}
+@media (min-width: 1400px) {
+	.container {
+		width: 1430px;
+		max-width: 1430px;
+	}
+}
+
+/* ========== Container css:end ========== */
+
+/* ========== Color variable:start ========== */
+
+:root {
+
+	--primary-white: #FFFFFF;
+	--primary-black: #000000;
+}
+
+/* ========== Color variable:end ========== */
+
+/* ========== Default css:start ========== */
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: auto !important;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-size: 14px;
+	line-height: normal;
+	background: var(--primary-white);
+	color: var(--primary-black);
+}
+
+.main_wapper { 
+	overflow: hidden;
+}
+
+body.open-nav { 
+	overflow: hidden; 
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+textarea {
+	resize: none;
+}
+
+h1 { color: ; font-size: 64px; font-family: 'Montserrat'; font-style: normal; font-weight: ; line-height: ; margin: 0; padding: 0; }
+h2 { color: ; font-size: 56px; font-family: 'Montserrat'; font-style: normal; font-weight: ; line-height: ; margin: 0; padding: 0; }
+h3 { color: ; font-size: 48px; font-family: 'Montserrat'; font-style: normal; font-weight: ; line-height: ; margin: 0; padding: 0; }
+h4 { color: ; font-size: 40px; font-family: 'Montserrat'; font-style: normal; font-weight: ; line-height: ; margin: 0; padding: 0; }
+h5 { color: ; font-size: 32px; font-family: 'Ubuntu'; font-style: normal; font-weight: ; line-height: ; margin: 0; padding: 0; }
+h6 { color: ; font-size: 24px; font-family: 'Ubuntu'; font-style: normal; font-weight: ; line-height: ; margin: 0; padding: 0; }
+p { color: ; font-size: 16px; font-family: 'Roboto'; font-style: normal; font-weight: ; line-height: ; margin: 0; padding: 0; }
+p + p { margin-top: 14px; }
+
+span { display: block; font-family: 'Ubuntu'; font-style: normal; }
+
+a { display: flex; text-decoration: none; font-family: 'Roboto'; font-style: normal; transition: all 0.4s ease-in-out; }
+
+ul li { font-family: 'Roboto'; font-style: normal; margin: 0; padding: 0; }
+ul li + li { margin-top: 14px; }
+
+/* ========== Default css:end ========== */
