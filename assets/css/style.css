@@ -9,6 +9,9 @@
     --simpan_lightgreen:#c0e271;
     --simpan_white:#ffffff;
 }
+
+.main-slider-three .hero-slider__social a:hover { color: var(--simpan_btn_hover); }
+
 .blog-card--three .blog-card__title{margin-bottom: 0;}
 .blog-three {padding-bottom: 120px;}
 textarea {resize: none !important;}
@@ -48,6 +51,8 @@ textarea {resize: none !important;}
 
 .custom-cursor__cursor {border: 1px solid var(--simpan_primary);}
 .custom-cursor__cursor-two { background-color: var(--simpan_primary);}
+.custom-cursor__hover { background-color: var(--simpan_primary); }
+
 .scroll-to-top.show {color:var(--simpan_primary) ;}
 .scroll-to-top__wrapper {background-color:var(--simpan_primary);}
 .about-three__image__shape {background-color: rgba(115, 187, 41, 0.5)
@@ -67,3 +72,14 @@ textarea {resize: none !important;}
 @media (min-width: 992px) and (max-width: 1199px) {.blog-three {padding-bottom: 80px;}}
 @media (min-width: 768px) and (max-width: 991px) {.blog-three {padding-bottom: 60px;}}
 @media (max-width: 767px) {.blog-three {padding-bottom: 35px;}}
+
+
+
+
+/* ================== style by k ================== */
+
+.services-three__inner::after { background-color: rgba(192, 226, 113, 0.8); }
+.service-card-two__bg { background-color: rgba(192, 226, 113, 0.6); }
+.service-card-two__icon { color: var(--simpan_primary); }
+.service-card-two__link,
+.service-card-two__link i { color: var(--simpan_btn_hover); }
