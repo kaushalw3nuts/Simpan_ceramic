@@ -12743,7 +12743,7 @@ li:hover .sidebar__comments__icon::after {
 }
 @media (max-width: 425px) {
   .reliable-one--home-three {
-    padding-top: 280px;
+    padding-top: 50px;
   }
 }
 .reliable-one--home .reliable-one__content {
