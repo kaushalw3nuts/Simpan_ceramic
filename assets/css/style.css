@@ -83,3 +83,5 @@ textarea {resize: none !important;}
 .service-card-two__icon { color: var(--simpan_primary); }
 .service-card-two__link,
 .service-card-two__link i { color: var(--simpan_btn_hover); }
+.main-footer__bottom__inner { border-top: 1px solid var(--simpan_primary); }
+.main-footer { background-color: var(--floens-black2, #2B1E16); }
