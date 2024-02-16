@@ -2093,7 +2093,7 @@ p {
   text-transform: capitalize;
 }
 .blog-card__title:hover {
-  color: var(--floens-base, #C7844F);
+  color: var(--simpan_primary);
 }
 @media (max-width: 1199px) {
   .blog-card__title {

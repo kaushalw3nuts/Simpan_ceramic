@@ -39,7 +39,7 @@ textarea {resize: none !important;}
 .team-two__social__list a::after {background-color: var(--simpan_lightgreen);}
 .team-two__social__list a {border: 1px solid var( --simpan_lightgreen);}
 .team-two__social__list a:hover { border-color: var(--simpan_primary);}
-.team-two__image__inner::after { background-color: var(--simpan_lightgreen);}
+.team-two__image__inner::after { background-color: var(--simpan_primary);}
 .team-two__top {border-bottom: 1px solid var(--simpan_lightgreen);}
 .team-two__social__share{color: var(--simpan_btn_hover);}
 .blog-card__date__day {background-color: var( --simpan_primary);}
