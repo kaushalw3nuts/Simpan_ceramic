@@ -51,6 +51,8 @@ textarea {resize: none !important;}
 .scroll-to-top__wrapper {background-color:var(--simpan_primary);}
 .about-three__image__shape {background-color: rgba(115, 187, 41, 0.5)
     ;}
+.form-one .bootstrap-select > .dropdown-toggle { border-bottom: 1px solid var(--simpan_lightgreen); }
+.form-one textarea { border: 1px solid var(--simpan_lightgreen); }
 
 
 
