@@ -43,6 +43,14 @@ textarea {resize: none !important;}
 .team-two__social__share{color: var(--simpan_btn_hover);}
 .blog-card__date__day {background-color: var( --simpan_primary);}
 .blog-card--three .blog-card__title::before { background-color: var(--simpan_primary);}
+.main-slider-three .hero-slider__counter__current {color: var(--simpan_primary);}
+
+.custom-cursor__cursor {border: 1px solid var(--simpan_primary);}
+.custom-cursor__cursor-two { background-color: var(--simpan_primary);}
+.scroll-to-top.show {color:var(--simpan_primary) ;}
+.scroll-to-top__wrapper {background-color:var(--simpan_primary);}
+.about-three__image__shape {background-color: rgba(115, 187, 41, 0.5)
+    ;}
 
 
 
