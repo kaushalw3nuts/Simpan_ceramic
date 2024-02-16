@@ -90,3 +90,70 @@ textarea {resize: none !important;}
 .mobile-nav__content .main-menu__list li a.expanded { color: var(--simpan_primary); }
 .mobile-nav__contact li > i { background-color: var(--simpan_primary); }
 .mobile-nav__social a:hover { color: var(--simpan_btn_hover); }
+.main-footer .row { justify-content: space-between; }
+.main-menu .main-menu__list > li > a { text-transform: uppercase; }
+.main-header__nav { margin-right: 278px; }
+.main-header--two .main-menu .main-menu__list > li.current > a, .main-header--two .main-menu .main-menu__list > li:hover > a { color: var(--simpan_primary); }
+
+
+section.not-found { display:inline-block; vertical-align:top; width:100%; }
+.four_zero_page { padding: 153px 0 100px 0; width: 100%; float: left; text-align: center; }
+.four_zero_page .big_title { width: 100%; display: inline-block; vertical-align: top; position: relative; text-align: center; }
+.four_zero_page .big_title span { display: inline-block; width: 100%; font-family: 'ArialMT'; font-weight: 500; font-size: 22px; line-height: 35px;letter-spacing: 0.03em; color: #41843d; text-transform: uppercase; }
+.four_zero_page .big_title h1 { font-weight: normal; color: #000000; text-transform: uppercase; padding: 0 0 12px 0; margin:0; }
+.four_zero_page .big_title:after { content: ''; background: #000000; width: 60px; height: 2px; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); display: block; }
+.four_zero_page .fore_text { padding: 29px 0 0 0; margin-bottom: -5px; font-size: 16px; display: inline-block; width: 100%; color: #000000; }
+.four_zero_page .read_more { float: left; padding: 32px 0 0 0; display: inline-block; width: 100%; text-align: center; }
+.four_zero_page .read_more a { min-width: 196px; height: 58px; line-height: 55px; border: 2px solid #93765b; font-family: 'Arial-BoldMT'; font-weight: normal; font-size: 18px; letter-spacing: 0.03em; text-align: center; text-transform: uppercase; display: inline-block; color: #ffffff; border-radius: 0; background:#93765b; text-decoration:none; }
+.read_more a:hover { background: none; color: #93765b; }
+body.error404 .site-main { padding:0 !important; }
+section.not-found { display:inline-block; vertical-align:top; width:100%; }
+.four_zero_page {padding: 153px 0 100px 0;width: 100%;float: left;text-align: center; display: -ms-flexbox; display: flex; align-items: center; justify-content: center; min-height: calc(100vh - 120px - 237px); }
+.four_zero_page .big_title {width: 100%;display: inline-block;vertical-align: top;position: relative;text-align: center; z-index: 2;}
+.four_zero_page .big_title span {display: inline-block;width: 100%;font-family: 'BarlowCondensed-ExtraBoldItalic';font-size: 200px;line-height: 1.3;letter-spacing: 0.03em;color: #73bb29;text-transform: uppercase; position: absolute; bottom: -15px; left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: -1;opacity: 0.5; }
+.four_zero_page .big_title h1 {width: 100%;color: #000;font-size: 52px;line-height: 1.1923;font-family: 'BarlowCondensed-Bold';text-align: center; padding-bottom: 12px; }
+.four_zero_page .big_title:after {content: '';background: #000000;width: 60px;height: 2px;position: absolute;left: 50%;bottom: 0;transform: translateX(-50%);display: block;}
+.four_zero_page .fore_text {padding: 29px 0 0 0;font-size: 18px;display: inline-block;width: 100%;color: #000000;}
+.four_zero_page .read_more {padding: 32px 0 0 0;display: -ms-flexbox; display: flex; align-items: center; width: 100%;justify-content: center;}
+body.error404 .site-main { padding:0 !important; }
+
+.four_zero_page .read_more a{ display: flex; height: 60px;  position: relative; overflow: hidden; padding: 0 50px; font-size: 18px; line-height: 22px; letter-spacing: 0.1em; border: 2px solid #73bb29;  font-family: 'BarlowCondensed-SemiBold'; text-transform: uppercase;; color: #73bb29;  background: #fff;  align-items: center; justify-content: center; z-index: 2; }
+.four_zero_page .read_more a:before {top: 0;bottom: 0;content: "";right: 0;position: absolute;left: 0; background-color: #73bb29;  -webkit-transform-origin: center right;-ms-transform-origin: center right;transform-origin: center right;-webkit-transform: scaleX(0);-ms-transform: scaleX(0);transform: scaleX(0);-webkit-transition: -webkit-transform .3s cubic-bezier(.645, .045, .355, 1) .1s;transition: -webkit-transform .3s cubic-bezier(.645, .045, .355, 1) .1s;transition: transform .3s cubic-bezier(.645, .045, .355, 1) .1s;transition: transform .3s cubic-bezier(.645, .045, .355, 1) .1s, -webkit-transform .3s cubic-bezier(.645, .045, .355, 1) .1s; z-index: -1; }
+.four_zero_page .read_more a:hover{ color: #fff; }
+.four_zero_page .read_more a:hover:before {-webkit-transform-origin: center left;-ms-transform-origin: center left;transform-origin: center left;-webkit-transform: scaleX(1);-ms-transform: scaleX(1);transform: scaleX(1);-webkit-transition: -webkit-transform .3s cubic-bezier(.645, .045, .355, 1);transition: -webkit-transform .3s cubic-bezier(.645, .045, .355, 1);transition: transform .3s cubic-bezier(.645, .045, .355, 1);transition: transform .3s cubic-bezier(.645, .045, .355, 1), -webkit-transform .3s cubic-bezier(.645, .045, .355, 1);}
+.section-space { padding: 0; }
+
+
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+
+    .main-header__nav { margin: 0 180px 0 0; }
+}
+
+@media (min-width: 1301px) and (max-width: 1399px) {
+
+    .main-header__nav { margin: 0 180px 0 0; }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+
+    .main-header__nav { margin: 0 150px 0 0; }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .four_zero_page { padding:73px 0 70px 0; }
+	.four_zero_page .read_more a { font-size:15px; }
+    .four_zero_page .big_title h1 { font-size: 40px; }
+}
+
+@media (max-width: 767px) {
+
+    .main-header__nav { margin: 0; }
+
+    .four_zero_page { padding:30px 0 30px 0; }
+	.four_zero_page .read_more a { font-size:15px; height: 47px;line-height: 45px; }
+    .four_zero_page .big_title h1 { font-size: 42px; }
+}
