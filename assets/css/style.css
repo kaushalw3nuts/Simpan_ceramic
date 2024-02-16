@@ -7,6 +7,7 @@
     --simpan_primary: #73BB29;
     --simpan_btn_hover:#509509;
     --simpan_lightgreen:#c0e271;
+    --simpan_white:#ffffff;
 }
 .blog-card--three .blog-card__title{margin-bottom: 0;}
 .blog-three {padding-bottom: 120px;}
@@ -49,9 +50,9 @@ textarea {resize: none !important;}
 .custom-cursor__cursor-two { background-color: var(--simpan_primary);}
 .scroll-to-top.show {color:var(--simpan_primary) ;}
 .scroll-to-top__wrapper {background-color:var(--simpan_primary);}
-.about-three__image__shape {background-color: rgba(115, 187, 41, 0.5)
-    ;}
-
+.about-three__image__shape {background-color: rgba(115, 187, 41, 0.5);}
+.footer-widget__title{color:var(--simpan_primary) ;}
+.footer-widget__about-text{color: var(--floens-text, #7A736A);}
 
 
 

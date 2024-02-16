@@ -804,8 +804,8 @@ p {
 }
 .floens-social a:hover {
   color: var(--floens-white, #ffffff);
-  background-color: var(--floens-base, #C7844F);
-  border-color: var(--floens-base, #C7844F);
+  background-color: var(--simpan_primary);
+  border-color: var(--simpan_primary);
 }
 
 .details-social {
@@ -4435,7 +4435,9 @@ body.megamenu-popup-active .mobile-nav__content {
 --------------------------------------------------------------*/
 .main-footer {
   position: relative;
-  background-color: var(--floens-black2, #2B1E16);
+  background: #D0F0C0;
+  /* background:#90EE90; */
+
 }
 .main-footer__top {
   padding-top: 80px;
@@ -4489,7 +4491,6 @@ body.megamenu-popup-active .mobile-nav__content {
   margin-bottom: 32px;
 }
 .footer-widget__about-text {
-  color: var(--floens-text-gray, #9A8B82);
   padding-right: 5px;
   margin-bottom: 31px;
 }
@@ -4569,7 +4570,7 @@ body.megamenu-popup-active .mobile-nav__content {
   top: -1px;
   width: 14px;
   height: 14px;
-  background-color: var(--floens-base2, #8A5133);
+  background-color: var(--simpan_btn_hover);
 }
 .footer-widget__title-box::before {
   content: "";
@@ -4578,7 +4579,7 @@ body.megamenu-popup-active .mobile-nav__content {
   left: 0;
   width: 8.75px;
   height: 8.75px;
-  background-color: var(--floens-base, #C7844F);
+  background-color: var(--simpan_primary);
 }
 .footer-widget__title {
   font-size: 18px;
@@ -4644,7 +4645,7 @@ body.megamenu-popup-active .mobile-nav__content {
   line-height: 2.25;
 }
 .footer-widget__links li a {
-  color: inherit;
+  color: var(--floens-text, #7A736A);
   background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
   transition: all 500ms ease;
 }
@@ -4652,7 +4653,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-size: 100% 1px;
 }
 .footer-widget__links li a:hover {
-  color: var(--floens-base, #C7844F);
+  color: var(--simpan_primary);
 }
 .footer-widget__info {
   margin: 0;
@@ -4682,7 +4683,7 @@ body.megamenu-popup-active .mobile-nav__content {
   margin-right: 15px;
 }
 .footer-widget__info li a {
-  color: inherit;
+  color: var(--floens-text, #7A736A);
   background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
   transition: all 500ms ease;
 }
@@ -4690,7 +4691,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-size: 100% 1px;
 }
 .footer-widget__info li a:hover {
-  color: var(--floens-base, #C7844F);
+  color: var(--simpan_primary);
 }
 .footer-widget__text {
   font-size: 14px;
