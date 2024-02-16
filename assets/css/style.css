@@ -85,3 +85,8 @@ textarea {resize: none !important;}
 .service-card-two__link i { color: var(--simpan_btn_hover); }
 .main-footer__bottom__inner { border-top: 1px solid var(--simpan_primary); }
 .main-footer { background-color: #212121; }
+.mobile-nav__content .main-menu__list li a button { background-color: var(--simpan_primary); }
+.mobile-nav__content .main-menu__list li a button.expanded,
+.mobile-nav__content .main-menu__list li a.expanded { color: var(--simpan_primary); }
+.mobile-nav__contact li > i { background-color: var(--simpan_primary); }
+.mobile-nav__social a:hover { color: var(--simpan_btn_hover); }
